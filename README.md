@@ -32,7 +32,7 @@ Your app is ready to be deployed!
 
 ## About the application
 
-An expense-tracker web application built using ReactJS.
+An food-ordering web application built using ReactJS.
 
 ## Getting Started
 
