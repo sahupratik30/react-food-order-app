@@ -2,6 +2,7 @@
   max-width: 60rem;
   width: 90%;
   margin: 2rem auto;
+  -webkit-animation: meals-appear 1s ease-out forwards;
   animation: meals-appear 1s ease-out forwards;
 }
 
@@ -10,7 +11,27 @@
   margin: 0;
   padding: 0;
 }
+.mealsloading {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+.mealserror {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+@-webkit-keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 @keyframes meals-appear {
   from {
     opacity: 0;
